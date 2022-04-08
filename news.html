@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>news</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul id="ul.navebar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="aboutMe.html">About me</a></li>
+    </ul>
+    <h1>Minecraft news:</h1>
+
+    <p id="news">
+      1.18, the first release of Caves & Cliffs: Part II, is a major update to
+      Java Edition released on November 30, 2021. It completely overhauls the
+      Overworld generation, with larger caves, taller mountains, new mountain
+      biomes, new cave biomes, and flooded caves.
+    </p>
+
+    <iframe
+      width="1280"
+      height="720"
+      src="https://www.youtube.com/embed/qvF6c8MQIi8?autoplay=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <br />
+<img id="largIMG" src="https://www.minecraft.net/content/dam/games/minecraft/key-art/CC2_KeyArt_1140x565.jpg" >
+<br>
+    <button type="button" onclick="dark()">dark mod</button>
+    <script>
+      function dark() {
+        document.body.style.backgroundColor = "rgb(0, 39, 41)";
+      }
+    </script>
+
+    <button type="button" onclick="light()">light mod</button>
+    <script>
+      function light() {
+        document.body.style.backgroundColor = "rgb(158, 216, 219)";
+      }
+    </script>
+  </body>
+</html>
